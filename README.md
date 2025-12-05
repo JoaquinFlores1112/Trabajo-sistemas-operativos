@@ -41,4 +41,5 @@ El sistema crea procesos agresivamente cada 2 segundos para intentar llenar la m
 #### 2. Acceso a memoria: La CPU intenta leer una dirección virtual de un proceso existente.
 • Si la página está en RAM: HIT (Se actualiza su tiempo de acceso para el LRU).
 • Si la página está en Swap: PAGE FAULT (Se trae a RAM, posiblemente expulsando otra página antigua).
-#### 3.Crear nuevo proceso: Para mantener la carga en el sistema.
+#### 3.Crear nuevo proceso:
+Para mantener la carga en el sistema.
